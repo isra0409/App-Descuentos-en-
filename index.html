@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/desc.css">
+    <title>Practice Js</title>
+</head>
+<body>
+
+    <div class="contenedor" id="contenedor">
+    
+        <h3 class="title-app">App: Calcular precio con descuento</h3>
+
+        <form class="form-app" id="form-app">
+            <label class="label-app" for="precio-prod">Precio del producto :</label>
+                <input class="precio-prod" type="text" id="precio-prod">
+            <label class="label-app" for="precio-desc">Descuento % :</label>
+                <input class="precio-prod" type="text" id="precio-desc">
+
+                <button class="btn" type="button" onclick="clickCalcular()">Calcular</button>
+        </form>
+
+        
+
+                <div class="txt-agregado" id="txt-js"></div>
+                <div class="txt-add-inactivo" id="add-txt">Por favor complete antes de enviar</div>
+
+        
+    </div>
+
+    <script src="./js/js.js"></script>
+
+</body>
+</html>
